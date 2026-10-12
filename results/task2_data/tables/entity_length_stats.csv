@@ -1,0 +1,5 @@
+type,mean,max,single_token_pct
+PER,1.69,6,35.09
+ORG,1.59,10,60.69
+LOC,1.16,10,85.42
+MISC,1.34,7,75.04
