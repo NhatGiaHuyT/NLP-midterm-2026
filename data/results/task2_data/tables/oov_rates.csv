@@ -1,0 +1,4 @@
+normalization,val all tokens (%),val entity tokens (%),test all tokens (%),test entity tokens (%)
+raw,8.36,20.38,12.18,31.27
+lower,7.54,18.17,10.88,28.49
+lower_digit0,5.96,18.12,8.29,28.49

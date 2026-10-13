@@ -1,0 +1,6 @@
+,texts_affected,percent
+numeric entity (#39; #36; ...),33348,26.13
+named entity without & (quot; amp;),6599,5.17
+escaped HTML tag (&lt;...&gt;),5542,4.34
+backslash line break,13954,10.94
+URL,1946,1.53

@@ -221,5 +221,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Generated data/model outputs
-data/
 ag_news_task1_outputs/

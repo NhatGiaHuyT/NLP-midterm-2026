@@ -1,0 +1,70 @@
+{
+  "dataset": "extraordinarylab/conll2003",
+  "entity_types": [
+    "PER",
+    "ORG",
+    "LOC",
+    "MISC"
+  ],
+  "pad_label_id": -100,
+  "vocab_sizes": {
+    "word2idx": 17494,
+    "char2idx": 84,
+    "tag2idx": 9,
+    "tag2idx_bioes": 17
+  },
+  "splits": {
+    "train": {
+      "sentences": 14041,
+      "tokens": 203618,
+      "max_sentence_len": 113,
+      "entities": {
+        "PER": 6600,
+        "ORG": 6321,
+        "LOC": 7140,
+        "MISC": 3438
+      },
+      "invalid_bio_tags": 0
+    },
+    "val": {
+      "sentences": 3250,
+      "tokens": 51360,
+      "max_sentence_len": 109,
+      "entities": {
+        "PER": 1842,
+        "ORG": 1341,
+        "LOC": 1837,
+        "MISC": 922
+      },
+      "invalid_bio_tags": 0,
+      "oov": {
+        "raw_all_tokens": 0.0836,
+        "raw_entity_tokens": 0.2038,
+        "lower_all_tokens": 0.0754,
+        "lower_entity_tokens": 0.1817,
+        "lower_digit0_all_tokens": 0.0596,
+        "lower_digit0_entity_tokens": 0.1812
+      }
+    },
+    "test": {
+      "sentences": 3453,
+      "tokens": 46427,
+      "max_sentence_len": 124,
+      "entities": {
+        "PER": 1617,
+        "ORG": 1661,
+        "LOC": 1668,
+        "MISC": 702
+      },
+      "invalid_bio_tags": 0,
+      "oov": {
+        "raw_all_tokens": 0.1218,
+        "raw_entity_tokens": 0.3127,
+        "lower_all_tokens": 0.1088,
+        "lower_entity_tokens": 0.2849,
+        "lower_digit0_all_tokens": 0.0829,
+        "lower_digit0_entity_tokens": 0.2849
+      }
+    }
+  }
+}
