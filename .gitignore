@@ -222,3 +222,4 @@ __marimo__/
 
 # Generated data/model outputs
 ag_news_task1_outputs/
+conll_task02_ner_outputs/
