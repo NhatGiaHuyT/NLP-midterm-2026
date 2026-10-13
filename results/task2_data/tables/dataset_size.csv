@@ -1,4 +1,0 @@
-,sentences,tokens,entities,avg tokens / sentence,max tokens / sentence
-train,14041,203618,23499,14.5,113
-val,3250,51360,5942,15.8,109
-test,3453,46427,5648,13.45,124

@@ -1,6 +1,0 @@
-label_name,train,val,test
-World,27000,3000,1900
-Sports,27000,3000,1900
-Business,27000,3000,1900
-Sci/Tech,27000,3000,1900
-Total,108000,12000,7600
