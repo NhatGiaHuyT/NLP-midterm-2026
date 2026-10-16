@@ -1,6 +1,6 @@
-"""Pipeline dữ liệu CoNLL-2003 (Task 2): tải, kiểm tra, tạo vocab và xuất ra data/conll2003/.
+"""Pipeline dữ liệu CoNLL-2003 (Task 2): tải, kiểm tra, tạo vocab và xuất ra data/Task 2/conll2003/.
 
-Chạy từ thư mục gốc repo:  python src/conll_data.py
+Chạy từ thư mục gốc repo:  python "data/Task 2/conll_data.py"
 """
 import json
 import re
@@ -17,7 +17,7 @@ BIO_TAGS = ["O"] + [f"{p}-{t}" for t in ENTITY_TYPES for p in ("B", "I")]
 BIOES_TAGS = ["O"] + [f"{p}-{t}" for t in ENTITY_TYPES for p in ("B", "I", "E", "S")]
 PAD, UNK = "<PAD>", "<UNK>"
 PAD_LABEL_ID = -100  # CrossEntropyLoss(ignore_index=-100) bỏ qua vị trí padding
-OUTPUT_DIR = Path(__file__).resolve().parents[1] / "data" / "conll2003"
+OUTPUT_DIR = Path(__file__).resolve().parent / "conll2003"  # data/Task 2/conll2003
 
 
 def normalize_word(word: str) -> str:

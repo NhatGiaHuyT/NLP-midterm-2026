@@ -1,6 +1,6 @@
-"""Pipeline dữ liệu AG News (Task 1): tải, làm sạch, chia tập và xuất ra data/ag_news/.
+"""Pipeline dữ liệu AG News (Task 1): tải, làm sạch, chia tập và xuất ra data/Task 1/ag_news/.
 
-Chạy từ thư mục gốc repo:  python src/ag_news_data.py
+Chạy từ thư mục gốc repo:  python "data/Task 1/ag_news_data.py"
 """
 import html
 import json
@@ -21,7 +21,7 @@ MIN_FREQ = 2
 DATASET_ID = "fancyzhx/ag_news"
 LABEL_NAMES = ["World", "Sports", "Business", "Sci/Tech"]
 SPLITS = ["train", "val", "test"]
-OUTPUT_DIR = Path(__file__).resolve().parents[1] / "data" / "ag_news"
+OUTPUT_DIR = Path(__file__).resolve().parent / "ag_news"  # data/Task 1/ag_news
 EXPORT_COLUMNS = ["source_index", "label", "label_name", "text", "text_clean", "text_nostop", "n_tokens"]
 
 ENTITY_NAMES = "quot|amp|lt|gt|nbsp|hellip|rsquo|lsquo|rdquo|ldquo|mdash|ndash"

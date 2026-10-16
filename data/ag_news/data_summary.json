@@ -1,0 +1,24 @@
+{
+  "dataset": "fancyzhx/ag_news",
+  "label_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "seed": 42,
+  "validation_size": 0.1,
+  "split_sizes": {
+    "train": 108000,
+    "val": 12000,
+    "test": 7600
+  },
+  "unique_tokens_train": 66752,
+  "vocab_size_min_freq_2_with_pad_unk": 44441,
+  "oov_rate_val": 0.0106,
+  "oov_rate_test": 0.0107,
+  "tokens_per_text_mean": 37.95,
+  "tokens_per_text_max": 171,
+  "max_len_p95": 53,
+  "texts_truncated_at_max_len_pct": 4.54
+}
